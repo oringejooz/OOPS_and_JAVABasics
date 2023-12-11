@@ -1,0 +1,7 @@
+Data Hiding is the process of Hiding and protecting the members of a class from unauthorised access
+whereas Abstraction is the process of hiding the internal working/implementation of a class and showing only important/ necessary details to the user
+
+Implemented in JAVA using
+-Abstract keyword
+-Interfaces
+
