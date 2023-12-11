@@ -1,0 +1,49 @@
+Exceptions can occur:
+Opening a file and it doesn't exist
+Taking user input but user doesnt give any
+Trying to run a process but CPU isn't available
+Divide by 0
+
+
+Main Class: Throwable Class
+Subclasses: Exceptions; Errors
+
+Exceptions can be handled 
+Errors cannot be handled
+
+Errors:
+JVM not working properly
+RAM going out of memory
+
+Exceptions : Checked- IOExceptions;SQL Exceptions ; Unchecked- RunTime Exceptions ->ArithmeticExceptions
+
+Statements: normal eg- int i=1 ; critical eg- double k = i/j -> Here j could be zero
+
+Handling critical statements: Write them inside blocks
+
+try{
+    double k = i/j;
+}
+catch(ArithmeticException ae){
+    "Some Code"
+}
+//One try can have multiple catch blocks
+try{
+    FileOutputStream fos = new FileOutputStream("abc.txt");
+}
+catch(ArithmeticException ae){
+    "Some Code"
+}
+catch(IOException ie){
+    "Code"
+}
+
+What if we do not know the type of exception- Write a general exception: since Exception class contains all the exception subclasses
+
+catch(Exception e){
+    //Handles all type of exceptions
+}
+
+throw keyword
+throws keyword
+finally keyword

@@ -1,0 +1,8 @@
+Wrapper Class
+
+For every primitive data type in java we have Wrapper Classes
+int - Integer
+char - Character
+double - Double
+
+All wrapper classes extend the Object class

@@ -8,6 +8,7 @@ public class Final_Keyword_JAVA {
         int num = 8;
         num = 4;
         final int integer = 10;
+        System.out.println(integer+" "+num);
         //integer=11;
         //Error - The final local variable integer cannot be assigned. It must be blank and not using a compound assignment. Just like C++ we use const
 
