@@ -3,7 +3,7 @@ package Obj_Oriented.Polymorphism;
 
 //Polymorphism - Compile Time & Run Time
 //Compile Time : Function Overloading   Constructor Overloading
-class Student{
+class Student2{
     String name;
     int age;
     //Function Overloading 
@@ -31,7 +31,7 @@ class Student{
 
 public class FuncOverloading {
     public static void main(String[] args) {
-        Student s1 = new Student();
+        Student2 s1 = new Student2();
         s1.name="Swarnima";
         s1.age=20;
         

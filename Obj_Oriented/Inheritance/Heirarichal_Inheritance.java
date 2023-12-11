@@ -13,13 +13,13 @@ class Shape{
 //Subclass or child class
 class Triangle extends Shape{
     public void area(int length,int height){
-        System.out.println("Area of Triangle is :"+(1/2)*length*height);
+        System.out.println("Area of Triangle is :"+(0.5)*length*height);
     }
 }
 
 class Circle extends Shape{
     public void area(int radius){
-        System.out.println("Area of circle :"+(22/7)*radius*radius);
+        System.out.println("Area of circle :"+(3.14)*radius*radius);
     }
 }
 

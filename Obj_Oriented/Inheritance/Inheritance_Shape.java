@@ -15,7 +15,7 @@ package Obj_Oriented.Inheritance;
 
 
 //Base or Parent or Super class
-class Shape{
+class Shape_{
     String type;
     String colour;
     public void area(){
@@ -25,7 +25,7 @@ class Shape{
 
 
 //Subclass or child class
-class Triangle extends Shape{
+class Triangle_ extends Shape_{
     public void area(int length,int height){
         System.out.println("Area of Triangle is :"+(1/2)*length*height);
     }
@@ -35,7 +35,7 @@ class Triangle extends Shape{
 
 public class Inheritance_Shape {
     public static void main(String[] args) {
-        Triangle t1 = new Triangle();
+        Triangle_ t1 = new Triangle_();
         t1.colour="Pink";
         t1.area();
     }

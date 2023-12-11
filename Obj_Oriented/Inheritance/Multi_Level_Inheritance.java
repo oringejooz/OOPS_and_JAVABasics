@@ -1,6 +1,6 @@
 package Obj_Oriented.Inheritance;
 
-class Shape{
+class Shape1{
     String type;
     String colour;
     public void area(){
@@ -10,14 +10,14 @@ class Shape{
 
 
 //Subclass or child class
-class Triangle extends Shape{
+class Triangle1 extends Shape1{
     public void area(int length,int height){
         System.out.println("Area of Triangle is :"+(1/2)*length*height);
     }
 }
 
 //Sub-sub class
-class EquilateralTriangle extends Triangle{
+class EquilateralTriangle1 extends Triangle1{
     public void area(int length,int height){
         System.out.println("Area of Triangle is :"+(1/2)*length*height);
     }
